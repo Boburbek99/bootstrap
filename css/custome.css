@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    max-width: 980px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+.bs .row> .col, .bs .row> [class^="col-"]{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgb(23, 69, 109);
+    border: 1px solid #000;
+    color: #fff;
+}
+
+/* ================header===================== */
+.main-header{
+    background-image:url(./image/headerfon.png);
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+}
+.main-header ul li a{
+    color: #fff;
+    font-weight: 600;
+}
+/* .main-header ul{
+    margin-left:auto;
+} */
+.main-header-text h3
+{
+padding-top:26px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-header-line{
+    height: 2px;
+    width: 48px;
+  margin: 0 auto;
+    background-color: aqua;
+    margin-top: 20px        ;
+    margin-bottom: 20px;
+
+}
+.main-header-text {
+position: absolute;
+top:30%;
+margin-left:5%;
+text-align: center;
+color: #fff;
+max-width: 800px;
+}
+.main-header ul li :hover
+{
+    color: rgb(76, 155, 155);
+}
+.main-header-button{
+  padding-top:50%;
+  padding-left: 43%;
+  
+}
+.main-header-button .btn{
+border:1px solid aqua;
+color: aqua;
+}
+.main-header-button .btn:hover
+{
+    background-color: rgb(58, 149, 149);
+    color: #fff;
+}
+.main-header-dote
+{
+    margin: auto;
+}

@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+p{
+    font-family:"Roboto",sans-serif;
+ 
+}
+.container
+{
+    max-width: 1000px;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+.bs .row> .col, .bs .row> [class^="col-"]{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgb(23, 69, 109);
+    border: 1px solid #000;
+    color: #fff;
+}
+
+/* ================header===================== */
+.main-header{
+    background-image:url(./image/headerfon.png);
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;
+    position: relative;
+}
+.main-header ul li a{
+    color: #fff;
+    font-weight: 600;
+}
+.main-header ul{
+ margin-left: auto;
+ font-family:"Roboto black",sans-serif;
+ font-size: 13px;
+}
+.main-header-text h3
+{
+padding-top:26px;
+ 
+}
+.main-header-line{
+    height: 2px;
+    width: 48px;
+  margin: 0 auto;
+    background-color: aqua;
+   
+
+}
+.main-header-text {
+color: #fff;
+margin-top: 160px;
+font-size: 14px;
+
+}
+.main-header ul li :hover
+{
+    color: rgb(76, 155, 155);
+}
+.main-header-button{
+ 
+  display: inline-block;
+  
+}
+.main-header-button .btn{
+border:1px solid aqua;
+color: aqua;
+}
+.main-header-button .btn:hover
+{
+    background-color: rgb(58, 149, 149);
+    color: #fff;
+}
+.main-header-dote
+{
+    margin: auto;
+}
+/* =====================section==================== */
+/* ===========sectionvideoplayer================= */
+.section-video-story
+{
+    background-image: url(./image/imagevideo.png);
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    min-height: 550px;
+  
+}
+
+/* =====================section-expertise============================ */
+.section-expertise h4{
+ color: #000;
+ font-weight: 600;
+ font-size: 22px;
+ padding:72px 0 72px;
+
+}
+.line-expertise
+{
+    content: " ";
+    width: 60px;
+    height: 1px;
+    margin: auto;
+    background-color: #6f6b6b;
+}
+.section-expertise p
+{
+    font-weight: 400;
+    color: #6f6b6b;
+}
+.expertise-icons img
+{
+ height: 82px;
+ overflow: hidden;
+ cursor: pointer;
+}
+/* ==========section-amazing================= */
+.section-amazing-time h4
+{
+    font-size: 22px;
+    padding-top: 70px;
+}
+.amazin-team p{
+    color: #6f6b6b;
+    font-size: 15px;
+}
+.section-amazing-time
+{
+    background-image: url(./image/amazingfon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.section-amazing-time img{
+    width: 220px;
+    height: 234px;
+    cursor: pointer;
+}
+h6{
+    padding: 17px 0px 11px 0px;
+}
